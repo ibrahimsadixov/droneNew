@@ -1,0 +1,102 @@
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(224, 83, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.navContainer {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.links {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.links a {
+    color: white;
+    font-size: 1rem;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.logo img {
+    height: auto;
+    width: 180px;
+}
+
+#menu {
+    cursor: pointer;
+}
+
+.navs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.hamburger{
+    height: 100%;
+    width: 0;
+    background-color: rgba(0, 0, 0, .95);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 11;
+
+}
+.linksHamburger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.linksHamburger a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#close{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 2rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.navs a{
+    cursor: pointer;
+}

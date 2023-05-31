@@ -1,0 +1,208 @@
+@media only screen and (max-width: 1100px) {
+    .navs {
+     display: none;
+    }
+    .links{
+        width: 80%;
+        justify-content: flex-end;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    #home{
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    .homeRight{
+        width: 100% !important;
+        height: 30vh !important;
+        
+    }
+    .homeText h2{
+        font-size: 1rem !important;
+    }
+    .homeText h3{
+        font-size: 2rem !important;
+    }
+    .homeLeft{
+        width: 100% !important;
+        height: 100% !important;
+        padding-bottom: 20px;
+    }
+    .homeText{
+        height: auto !important;
+        padding-top: 20px !important;
+    }
+    .btns button {
+        height: auto !important;
+        width:40%;
+      font-size: .8rem;
+      padding: 5px 0;
+      }
+      .icon{
+        gap: 20px;
+      }
+      .iconImg{
+        height: auto !important;
+      }
+      .iconImg img {
+        height: 180px !important;
+        width: auto !important;
+    }
+   .first{
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+   }
+   .second{
+    display: none;
+   }
+   #next{
+    display: none;
+   }
+   #about{
+    height: auto !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 30px;
+  
+   
+   }
+   .aboutLeft{
+    width: 100% !important;
+    height: 100% !important;
+    padding-top: 20px !important;
+ 
+   }
+   .aboutText{
+    align-items: center !important; 
+   }
+   .aboutRight{
+    width: 100% !important;
+    height: 30vh !important;
+   }
+
+
+#ourServices{
+    padding: 20px 10px !important;
+}
+.icons{
+    flex-direction: column !important;
+    align-items: center !important;
+}
+#ourServices button{
+    width: 30% !important;
+}
+.btnCont button{
+    width: 100%;
+}
+#contactUs{
+    flex-direction: column !important;
+    height: auto !important;
+    padding-top: 20px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(28, 29, 29);
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+}
+.mainFooter{
+    height: auto !important;
+    width: 100%;
+    background-color: rgb(28, 29, 29);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 !important;
+}
+.secondaryFooter{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(224, 83, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondaryFooter h3{
+   color: white;
+}
+
+.footerText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    width: 100%;
+}
+.footerText h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.footerText hr{
+    width: 16%;
+    height: 1px;
+    background-color: white;
+    border: 0;
+}
+.footerContacts{
+    width: 80%;
+    height:auto;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding-top: 30px;
+    gap: 30px;
+    padding: 20px 0 !important;
+}
+.footerContact{
+    width: 100% !important;
+    height: auto!important;
+    flex-direction: column !important;
+
+}
+.footerContact .footerImg{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerIcons{
+    gap: 10px;
+}
+.contactMap{
+    height: auto !important;
+    width: 100% !important;
+}
+.contactsForm{
+    padding-bottom: 20px!important;
+}
+  }
